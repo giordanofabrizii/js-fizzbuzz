@@ -1,5 +1,9 @@
+const containerEl = document.querySelector(".container");
+
 // inizializzo il ciclo for
 for (let i = 1; i <= 100; i++) {
+    let articleEl = document.createElement("article"); // creo un nuovo elemento
+    containerEl.appendChild(articleEl); // aggiungo l'elemento al container
     let articleContent = '';
 
     if ( i % 3 == 0 ) { // se multiplo di 3
@@ -12,5 +16,5 @@ for (let i = 1; i <= 100; i++) {
         articleContent += i
     }
 
-    console.log(articleContent);
+    articleEl.innerHTML = articleContent; // inserisco il contenuto dentro il nuovo elemento
 }
