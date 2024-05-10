@@ -8,3 +8,12 @@
 > Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"BONUS 1:
 > Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.BONUS 2:
 > Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+<!-- ///////////////////////////////////////// -->
+
+> Creare un ciclo per generare 100 elementi in un container html
+> Con delle condizioni inserire un contenuto personalizzato all'interno di ogni elemento:
+    se multiplo solo di 3: "Fizz"
+    se multiplo solo di 5: "Buzz"
+    se multiplo di 3 e di 5; "FizzBuzz"
+    altrimenti stampa il numero
