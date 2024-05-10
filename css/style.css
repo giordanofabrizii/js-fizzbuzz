@@ -12,22 +12,30 @@
 }
 
 article {
-    width: calc(100% / 10);
-    border: 1px solid red;
+    width: calc((100% / 10) - 1rem);
+    background-color: rgb(187, 255, 61);
+    border-radius: 12px;
+    margin: .5rem;
     aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-size: 3rem;
+    color: magenta;
 }
 
-.fizz::before {
-    content: "Fizz";
+.fizz{
+    background-image: url("https://img.freepik.com/free-vector/fizz-pop-art-comic-speech-bubbles-book-sound-effects_1142-12611.jpg");
+    background-size: cover;
 }
 
-.buzz::before {
-    content: "Buzz";
+.buzz{
+    background-image: url("https://www.red17.co.uk/media/wysiwyg/Blog_Pics/Topics/Product_Launch_and_Pop-up_Shops/The_word_BUZZ.jpg");
+    background-size: cover;
 }
 
-.fizzbuzz::before{
-    content: "FizzBuzz";
+.fizzbuzz{
+    background-image: url("https://fordsfizzbuzz.netlify.app/img/fizzbuzz-logo.jpeg");
+    background-size: cover;
 }
